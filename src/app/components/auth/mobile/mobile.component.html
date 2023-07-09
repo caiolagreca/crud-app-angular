@@ -1,0 +1,11 @@
+<form class="form" [formGroup]="mobileForm">
+  <mat-form-field class="form-control">
+    <mat-label>Your Phone Number</mat-label>
+    <input matInput formControlName="phoneNumber" type="text" />
+  </mat-form-field>
+  <div class="form-footer">
+    <button mat-raised-button (click)="getCode()">Get Code</button>
+    <div id="sign-in-mobile-button"></div>
+    <a routerLink="/register">Create a User</a>
+  </div>
+</form>

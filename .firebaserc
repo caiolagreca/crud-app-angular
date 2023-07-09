@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularcrudproject-332cf": {
+      "hosting": {
+        "crud-app": [
+          "angularcrudproject-332cf"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularcrudproject-332cf"
+  }
+}
